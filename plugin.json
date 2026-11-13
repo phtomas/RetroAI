@@ -1,0 +1,47 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "retroai-spectrumai",
+  "version": "0.1.1",
+  "description": "Assistente tecnico de retrocomputacao para TK90X, TK95 e ZX Spectrum: diagnostico, medidas, reparos e expansoes.",
+  "author": {
+    "name": "phtomas",
+    "url": "https://github.com/phtomas"
+  },
+  "homepage": "https://github.com/phtomas/RetroAI",
+  "repository": "https://github.com/phtomas/RetroAI",
+  "keywords": [
+    "tk90x",
+    "tk95",
+    "zx-spectrum",
+    "retrocomputacao",
+    "z80",
+    "hardware"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "RetroAI — SpectrumAI",
+        "shortDescription": "Diagnóstico de TK90X e TK95",
+        "longDescription": "Assistente técnico comunitário de retrocomputação para TK90X, TK95 e ZX Spectrum. Orienta inspeções, medições, análise do Z80, ULA, ROM, RAM, interfaces e reparos, diferenciando hipóteses de evidências verificáveis. Não substitui a checagem do esquema da revisão específica nem as precauções de segurança em bancada.",
+        "developerName": "phtomas",
+        "category": "Other",
+        "capabilities": [
+          "Diagnóstico orientado de TK90X e TK95",
+          "Medições e análise do Z80, ULA, ROM e RAM",
+          "Segurança e validação de reparos"
+        ],
+        "websiteURL": "https://github.com/phtomas/RetroAI",
+        "supportURL": "https://github.com/phtomas/RetroAI/blob/main/SUPPORT.md",
+        "privacyPolicyURL": "https://github.com/phtomas/RetroAI/blob/main/PRIVACY.md",
+        "termsOfServiceURL": "https://github.com/phtomas/RetroAI/blob/main/TERMS.md",
+        "defaultPrompt": [
+          "Meu TK90X mostra tela preta. Por onde começo o diagnóstico?",
+          "Como verificar o clock e RESET do Z80 no TK90X?",
+          "Quais cuidados devo ter com a RAM 4116?"
+        ],
+        "logo": "./assets/retroai-icon.svg",
+        "composerIcon": "./assets/retroai-icon.svg"
+      }
+    }
+  }
+}
