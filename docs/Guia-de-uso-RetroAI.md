@@ -1,21 +1,26 @@
-# RetroAI — SpectrumAI: guia rápido do leitor
+# RetroAI — SpectrumAI: um assistente técnico para toda a comunidade
 
-O **RetroAI — SpectrumAI** é um assistente técnico para TK90X, TK95 e ZX Spectrum, útil para compreender circuitos, planejar medições e investigar falhas no Z80, ULA, ROM, RAM, vídeo, teclado e interfaces.
+O **RetroAI — SpectrumAI** nasceu para ajudar a compreender e reparar **TK90X, TK95 e ZX Spectrum**: interpretar esquemas, investigar falhas de Z80, ULA, ROM e RAM, planejar medições e distinguir hipóteses de evidências.
 
-## Acesso direto
+## Por que o projeto ganhou um caminho independente?
 
-Quando houver publicação pública aprovada pela OpenAI, abra a seção **Plugins** no ChatGPT, busque por *RetroAI — SpectrumAI*, instale e selecione o plugin na conversa. Até lá, essa forma de acesso pode não estar disponível para todos.
+Durante a tentativa de publicação no diretório público de plugins, a **skill técnica passou nas verificações mostradas pelo portal**. Entretanto, naquele momento a OpenAI não aceitava novas submissões públicas de plugins compostos **apenas por skills**. **Não foi um veto individual ao RetroAI ou a seu autor, nem uma reprovação de seu conteúdo:** tratava-se de uma restrição da modalidade de publicação.
 
-## Baixar e instalar o pacote
+A limitação nos levou a manter **a base técnica disponível no GitHub**, permitindo consulta e adaptação para assistentes de IA compatíveis. Essa base não é um assistente universal de instalação com um clique: cada plataforma possui seus próprios formatos, políticas, recursos e limites de uso.
 
-Acesse [github.com/phtomas/RetroAI](https://github.com/phtomas/RetroAI), abra a pasta **releases** e baixe **RetroAI-SpectrumAI-v0.1.0.zip**. Em ambientes que disponibilizem importação por ZIP, use a opção de instalar plugin por arquivo; a disponibilidade dessa função depende do aplicativo e das permissões da conta. O pacote também pode ser usado como base de um marketplace Git compatível.
+## Como usar hoje
 
-## Como perguntar
+1. Acesse o [repositório do RetroAI](https://github.com/phtomas/RetroAI).
+2. Consulte a documentação e baixe o pacote ZIP disponível na pasta [`releases`](../releases). No momento, há uma versão pública do pacote; verifique sua versão e as instruções antes de instalar.
+3. Em um ambiente que suporte a importação desse tipo de plugin ou de skills, siga o procedimento do aplicativo. Se não houver importação direta, os arquivos técnicos podem servir como referência de instruções para um assistente compatível; isso requer adaptação e respeito às condições de uso dos arquivos.
+4. Ao solicitar ajuda, informe **modelo, revisão da placa, sintomas, modificações e medições já realizadas**; inclua fotos legíveis e o esquema correto, quando possível.
 
-Informe **modelo, revisão da placa, sintomas, modificações e medições já efetuadas**. Sempre que possível, inclua fotos legíveis e o esquema da revisão correta.
+**Exemplo de pergunta:** “Meu TK90X apresenta tela preta. O que devo medir nas linhas de energia, no clock e no RESET do Z80 antes de trocar componentes?”
 
-**Exemplo:** “Meu TK90X não entra no BASIC e mostra tela preta. Quais testes devo fazer nas linhas de energia, no clock e no RESET do Z80?”
+## E o nosso robozinho técnico?
 
-**Importante:** hipóteses não substituem medições em bancada. Desenergize antes de inspeções e soldas e siga as precauções elétricas.
+Ainda não podemos garantir a comodidade de tirar o celular do bolso, abrir o bom e velho ChatGPT e chamar imediatamente o técnico de TK/ZX. Quem sabe, no futuro, possamos colocar no ar **nosso próprio robô técnico**, acessível pelo navegador e pelo celular, para conversar sobre TK, ZX e muito mais? **Essa é uma possibilidade futura, não um serviço já disponível.**
 
-**Pacote e atualizações:** https://github.com/phtomas/RetroAI
+**Segurança e método:** nada é “funcionou” sem prova. Isole e meça antes de adivinhar. Desenergize o equipamento para inspeções e reparos, respeite os riscos elétricos e confira a revisão correta do esquema.
+
+**Endereço permanente do projeto:** https://github.com/phtomas/RetroAI
