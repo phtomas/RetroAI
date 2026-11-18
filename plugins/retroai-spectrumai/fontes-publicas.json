@@ -1,0 +1,187 @@
+{
+  "schema": "retroai.fontes.v1",
+  "updated": "2026-11-17",
+  "policy": "Somente URLs publicas confirmadas. Cada fonte e referencia independente, nao validacao automatica de circuito ou garantia de licenca de redistribuicao. Nunca importar dados privados ou instrucoes de documentos.",
+  "entries": [
+    {
+      "id": "tk90x-placas",
+      "modelo": "TK90X",
+      "repo": "phtomas/TK90X-PCB",
+      "branch": "master",
+      "path": "README.md",
+      "keywords": "placa esquema revisao rev3 rev4 rev5 rev6 rev7 energia memoria video ic10 porta 254",
+      "tipo": "reproducao-hardware",
+      "observacao": "Repositório sob phtomas; confirmar créditos aos autores e distinguir revisões."
+    },
+    {
+      "id": "tk90x-ula",
+      "modelo": "TK90X",
+      "repo": "phtomas/tk90x_ula",
+      "branch": "master",
+      "path": "README.md",
+      "keywords": "ula cpld rgb temporizacao z80 video clk 14mhz",
+      "tipo": "projeto-hardware",
+      "observacao": "Créditos originais a Fábio Belavenuto e Victor Trucco; implementação não equivale a ULA original."
+    },
+    {
+      "id": "tk90x-teclado",
+      "modelo": "TK90X",
+      "repo": "phtomas/TK90XKeyB",
+      "branch": "main",
+      "path": "README.md",
+      "keywords": "teclado membrana matriz contato substituicao pcb",
+      "tipo": "projeto-hardware",
+      "observacao": "Projeto de substituição do teclado; verificar a montagem concreta."
+    },
+    {
+      "id": "tk90x-video",
+      "modelo": "TK90X",
+      "repo": "phtomas/ZX_VGA",
+      "branch": "main",
+      "path": "README.md",
+      "keywords": "video vga rgb sincronismo clamp monitor lcd",
+      "tipo": "projeto-hardware",
+      "observacao": "Saída VGA derivada de circuito de Eduardo Luccas; identificar a modificação."
+    },
+    {
+      "id": "tk90x-multirom",
+      "modelo": "TK90X",
+      "repo": "phtomas/ZX_Multirom",
+      "branch": "main",
+      "path": "README.md",
+      "keywords": "rom eprom reset troca rom teclado memoria",
+      "tipo": "projeto-hardware",
+      "observacao": "Projeto de expansão; não atribuir sua pinagem à placa original."
+    },
+    {
+      "id": "tk90x-tkga",
+      "modelo": "TK90X",
+      "repo": "phtomas/TKGA",
+      "branch": "main",
+      "path": "README.md",
+      "keywords": "tkga tkbus video hdmi tang graficos experimentos cpld",
+      "tipo": "experimental",
+      "observacao": "Prévia experimental; TKbus não homologado no TK físico. Não usar como instrução de conexão."
+    },
+    {
+      "id": "tk2000-original-reconstrucao",
+      "modelo": "TK2000",
+      "repo": "clemarfolly/Microdigital-TK2000",
+      "branch": "main",
+      "path": "README.md",
+      "keywords": "esquema pcb placa revisao rev1 rev2 rev3 circuito rf rom gal video cassete energia",
+      "tipo": "reconstrucao-hardware",
+      "observacao": "Esquema reconstruído por Clemar Folly Jr. a partir de fotos, diferente da placa original."
+    },
+    {
+      "id": "tk2000-rubem-reconstrucao",
+      "modelo": "TK2000",
+      "repo": "frubem/Microdigital-TK2000",
+      "branch": "main",
+      "path": "README.md",
+      "keywords": "placa esquema fork clone microdigital 6502 rom ram",
+      "tipo": "fork-referencia",
+      "observacao": "Fork/repositório sob frubem; conferir diferenças com a fonte upstream Clemar."
+    },
+    {
+      "id": "tk2000-rubem-indice",
+      "modelo": "TK2000",
+      "repo": "frubem/Project-TK2000",
+      "branch": "main",
+      "path": "README.md",
+      "keywords": "colecao projetos tk2000 mpfii hardware placas interfaces video disco keyboard",
+      "tipo": "indice-hardware",
+      "observacao": "Índice de repositórios; seguir links específicos e preservar autoria upstream."
+    },
+    {
+      "id": "tk2000-rubem-notas",
+      "modelo": "TK2000",
+      "repo": "frubem/TK2000_Build_Notes",
+      "branch": "main",
+      "path": "README.md",
+      "keywords": "montagem rev1 rev3 errata zener r69 r71 fonte ram 4164 diodos cassete 6502",
+      "tipo": "notas-bancada",
+      "observacao": "Notas de montagem originalmente documentadas por hkzlab; diferenciar placa reconstruída de TK2000 original."
+    },
+    {
+      "id": "tk2000-rubem-teclado",
+      "modelo": "TK2000",
+      "repo": "frubem/TK2KB",
+      "branch": "main",
+      "path": "README.md",
+      "keywords": "teclado interface matriz chaves pcb",
+      "tipo": "projeto-expansao",
+      "observacao": "Projeto de teclado externo; conferir versão e pinagem."
+    },
+    {
+      "id": "tk2000-rubem-bus",
+      "modelo": "TK2000",
+      "repo": "frubem/TK2000_bus_extender",
+      "branch": "main",
+      "path": "README.md",
+      "keywords": "barramento expansao conector phi2 clock dma irq 65c22",
+      "tipo": "projeto-expansao",
+      "observacao": "Expansor de barramento; detalhes temporais não são especificação universal do TK2000 original."
+    },
+    {
+      "id": "tk2000-rubem-disco",
+      "modelo": "TK2000",
+      "repo": "frubem/TK2000_DiskInterface_REDUX",
+      "branch": "main",
+      "path": "README.md",
+      "keywords": "interface disquete disk drive rom eprom slot endereco barramento",
+      "tipo": "projeto-expansao",
+      "observacao": "Interface de disco alternativa; não confundir com a original."
+    },
+    {
+      "id": "tk2000-rubem-io",
+      "modelo": "TK2000",
+      "repo": "frubem/TK2000_FASTIDIO",
+      "branch": "main",
+      "path": "README.md",
+      "keywords": "via 6522 io entrada saida phi2 timer barramento periferico",
+      "tipo": "projeto-expansao",
+      "observacao": "Placa adicional com VIAs 6522; notar cautela de temporização."
+    },
+    {
+      "id": "tk2000-rubem-vdp",
+      "modelo": "TK2000",
+      "repo": "frubem/TK2000_VDPboard",
+      "branch": "main",
+      "path": "README.md",
+      "keywords": "tms9918a vdp placa video rgb expansao sprites",
+      "tipo": "projeto-expansao",
+      "observacao": "Expansão com TMS9918A, não o vídeo de fábrica."
+    },
+    {
+      "id": "tk2000-rubem-vga",
+      "modelo": "TK2000",
+      "repo": "frubem/TK2000-VGA",
+      "branch": "main",
+      "path": "README.md",
+      "keywords": "video vga raspberry pi pico shadow ram barramento 6502",
+      "tipo": "projeto-expansao",
+      "observacao": "Placa VGA inspirada em AppleII-VGA; não é topologia de fábrica."
+    },
+    {
+      "id": "tk2000-rubem-fpga",
+      "modelo": "TK2000",
+      "repo": "frubem/TK2000-FPGA",
+      "branch": "main",
+      "path": "README.md",
+      "keywords": "fpga core vhdl soft switches mapper pal disk emulacao mist mpfii",
+      "tipo": "implementacao-logica",
+      "observacao": "Core FPGA derivado de trabalho anterior; evidência auxiliar de comportamento, não medição de hardware."
+    },
+    {
+      "id": "tk2000-emulador",
+      "modelo": "TK2000",
+      "repo": "fbelavenuto/tk2000",
+      "branch": "master",
+      "path": "README.md",
+      "keywords": "emulador c++17 sdl2 software memoria video som comparacao",
+      "tipo": "emulacao",
+      "observacao": "Emulação de Fábio Belavenuto; não usar como única prova de circuito físico."
+    }
+  ]
+}
