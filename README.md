@@ -39,7 +39,7 @@ Estamos iniciando um **protótipo local e somente leitura**, independente do plu
 
 ## Obter o pacote
 
-[Baixar o pacote público RetroAI-SpectrumAI-v0.2.1.zip](releases/RetroAI-SpectrumAI-v0.2.1.zip) (recomendado; política links-only) · [ZIP antigo v0.1.0](releases/RetroAI-SpectrumAI-v0.1.0.zip) (legado, sem consulta indexada)
+[Baixar o pacote atual RetroAI — Oficina dos Clássicos v0.3.0](releases/RetroAI-Oficina-dos-Classicos-v0.3.0.zip) (recomendado; política links-only) · [pacote legado v0.2.1](releases/RetroAI-SpectrumAI-v0.2.1.zip) · [ZIP antigo v0.1.0](releases/RetroAI-SpectrumAI-v0.1.0.zip) (legado, sem consulta indexada)
 
 Este ZIP é uma **reconstrução pública portátil do núcleo técnico**, não uma exportação integral do plugin instalado na conta do autor. Não contém credenciais, documentos privados do Google Drive ou documentação de terceiros não licenciada para redistribuição.
 
