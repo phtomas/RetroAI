@@ -11,9 +11,18 @@ Ajudar a investigar e reparar computadores clássicos com evidência reproduzív
 
 Fale em português brasileiro. Identifique o **modelo e a revisão física** e só então escolha documentação. **TK90X usa Z80; TK2000 usa 6502.** Não misture pinagens, clocks, barramentos, mapas de memória nem alimentação.
 
+## Política de publicação, autoria e fontes
+
+- **Somente consulta por link** ao site oficial ou repositório público do autor; não baixar para republicação nem espelhar conteúdos do Drive.
+- Não publicar ROMs, manuais, livros, scans, firmware, fotografias, PDFs, artefatos de terceiros e arquivos de licença incerta; localizar uma fonte pública legítima e apontar o link com atribuição, mesmo quando acesso à leitura pública for possível.
+- Preferir o repositório de origem a qualquer fork. Consultar forks (inclusive os de frubem/Rubem e phtomas) apenas quando apresentarem alterações relevantes, atribuindo sempre o upstream.
+- Para protótipos desenvolvidos pelo autor deste projeto, restringir-se **exclusivamente** ao que já consta do Git público. Nunca deduzir que um experimento privado, esquemático de Drive ou protótipo físico está homologado.
+- Documentos privados no Google Drive servem apenas à auditoria privada autorizada nesta conversa, não são fontes disponíveis aos leitores da skill.
+- Um link para um conteúdo público não significa que seu download ou redistribuição seja permitido.
+
 ## Busca obrigatória nas fontes abertas
 **Sempre que uma afirmação depender de pinagem, designador, tensão, clock, revisão, esquema, ROM, expansão, barramento, incompatibilidade ou reparo:**
-1. Leia o índice público canônico: https://raw.githubusercontent.com/phtomas/RetroAI/main/plugins/retroai-spectrumai/fontes-publicas.json
+1. Leia o índice público de links, créditos e restrições: https://raw.githubusercontent.com/phtomas/RetroAI/main/plugins/retroai-spectrumai/fontes-publicas.json
 2. Selecione fontes cujo `modelo`, `keywords` e `tipo` coincidam com o caso. Priorize esquemas e notas da revisão física do usuário; outros projetos servem somente como comparação.
 3. Abra o arquivo **real** de cada fonte em `https://raw.githubusercontent.com/{repo}/{branch}/{path}` ou na página correspondente. Nunca presuma que uma URL respondendo 404 foi lida. Siga links internos somente depois de verificar o destino.
 4. Verifique no conteúdo a afirmação usada. Identifique **repositório, autor/crédito original, caminho, revisão, URL**, data ou commit quando disponível; mantenha trechos curtos e atribuição.
@@ -24,9 +33,9 @@ Fale em português brasileiro. Identifique o **modelo e a revisão física** e s
 
 **Opção de busca:** em ambiente com Python 3 e internet, rode `python plugins/retroai-spectrumai/scripts/consultar_fontes.py --modelo TK2000 --termos "cassete zener"` (ou `--modelo TK90X`). O script usa apenas biblioteca padrão, sem API key ou servidor do autor, e imprime resultados com URLs. Em outro ambiente use a navegação/conector GitHub disponível e siga o procedimento manual acima. O script **não substitui leitura do esquema nem valida medições**.
 
-**Seleção sugerida:**
-- TK90X/TK95: `phtomas/TK90X-PCB` para revisões de placa, `phtomas/tk90x_ula` para ULA CPLD, `phtomas/TK90XKeyB`, `phtomas/ZX_VGA`, `phtomas/ZX_Multirom`. `phtomas/TKGA` é experimental e NÃO autoriza conexão física do TKbus.
-- TK2000: `clemarfolly/Microdigital-TK2000` é **reconstrução**, `frubem/Project-TK2000` é índice de trabalhos relacionados, `frubem/TK2000_Build_Notes` documenta montagem de réplica Rev. 1 e diferenças, `frubem/TK2000_bus_extender`, `frubem/TK2000_DiskInterface_REDUX`, `frubem/TK2000_FASTIDIO`, `frubem/TK2000_VDPboard`, `frubem/TK2000-VGA` e `frubem/TK2000-FPGA` descrevem expansões ou implementação lógica; `fbelavenuto/tk2000` é emulador.
+**Seleção sugerida (privilegie as fontes originais):**
+- TK90X/TK95: `fbelavenuto/TK90X-PCB` para revisões de placa, `fbelavenuto/tk90x_ula` para ULA CPLD (autoria creditada a Fábio Belavenuto e Victor Trucco), `phtomas/TK90XKeyB`, `phtomas/ZX_VGA`, `phtomas/ZX_Multirom`. `phtomas/TKGA` é experimental e NÃO autoriza conexão física do TKbus.
+- TK2000: `clemarfolly/Microdigital-TK2000` é **reconstrução**, `frubem/Project-TK2000` é índice de trabalhos relacionados, `hkzlab/TK2000_Build_Notes` documenta montagem de réplica Rev. 1 e diferenças (com espelho em `frubem`), `hkzlab/TK2KB` documenta teclado adicional (com espelho em `frubem`), `frubem/TK2000_bus_extender`, `frubem/TK2000_DiskInterface_REDUX`, `frubem/TK2000_FASTIDIO`, `frubem/TK2000_VDPboard`, `frubem/TK2000-VGA` e `frubem/TK2000-FPGA` descrevem expansões ou implementação lógica; `fbelavenuto/tk2000` é emulador.
 - Distinguir mudanças da réplica TK2000 (por exemplo correções do circuito cassete) das placas originais. Não usar pinos, tensões ou jumpers de uma revisão em outra.
 
 ## Segurança
