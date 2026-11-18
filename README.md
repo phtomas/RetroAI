@@ -12,7 +12,7 @@ Por isso, a base técnica do RetroAI está disponível aqui para consulta e adap
 
 ## Oficina Viva — fontes públicas consultáveis (v0.2.0)
 
-O núcleo técnico atualizado está em [SKILL.md](plugins/retroai-spectrumai/skills/diagnostico-tk/SKILL.md), com [catálogo JSON de fontes](plugins/retroai-spectrumai/fontes-publicas.json) (18 referências verificadas, TK90X e TK2000) e [buscador Python sem chave de API](plugins/retroai-spectrumai/scripts/consultar_fontes.py).
+O núcleo técnico atualizado está em [SKILL.md](plugins/retroai-spectrumai/skills/diagnostico-tk/SKILL.md), com [catálogo JSON de fontes](plugins/retroai-spectrumai/fontes-publicas.json) (23 referências públicas indexadas, TK90X e TK2000) e [buscador Python sem chave de API](plugins/retroai-spectrumai/scripts/consultar_fontes.py).
 
 Em ambientes com Python 3 e acesso à internet:
 
@@ -24,6 +24,10 @@ python plugins/retroai-spectrumai/scripts/consultar_fontes.py --modelo TK90X --t
 O buscador consulta o índice no GitHub e, com `--abrir`, verifica a leitura das três primeiras fontes. **Não interpreta esquemas automaticamente nem substitui o técnico.** Assistentes com ferramentas de navegação/GitHub podem seguir diretamente o protocolo do SKILL.md. Sem ferramenta de rede, a skill **não pode** alegar consulta atualizada; o leitor também pode enviar arquivos.
 
 A ampliação para TK2000 inclui a [reconstrução de Clemar Folly](https://github.com/clemarfolly/Microdigital-TK2000), o [índice de projetos de Rubem](https://github.com/frubem/Project-TK2000) e projetos especializados. O TK2000 original, as reconstruções, os forks e as expansões **não são intercambiáveis**. Atribuições e licenças de terceiros continuam próprias.
+
+## Política de acervo e créditos
+
+As pastas privadas **RetroAI** e **Retropie** do Drive foram auditadas apenas para identificar temas, autoria e referências. **Nenhum arquivo privado do Drive foi publicado**. O catálogo aponta exclusivamente a arquivos já públicos nos sites e repositórios de seus autores, priorizando o upstream antes de forks. Não espelhamos ROMs, manuais, livros, fotos nem projetos de terceiros sem licença expressa. Dos protótipos do autor, referenciamos somente o que já estava público no Git.
 
 ## Obter o pacote
 
