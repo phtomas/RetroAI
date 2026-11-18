@@ -1,9 +1,9 @@
-# RetroAI — SpectrumAI v0.2.0
+# RetroAI — Oficina dos Clássicos v0.3.0
 
-Núcleo técnico portável para investigação de TK90X/TK95/ZX Spectrum e TK2000.
+Núcleo técnico portátil para investigação de TK90X/TK95/ZX Spectrum e TK2000.
 
 - `skills/diagnostico-tk/SKILL.md`: método, regras de consulta, citações e segurança.
-- `fontes-publicas.json`: índice com 18 entradas de fontes GitHub.
+- `fontes-publicas.json`: índice com 23 entradas de fontes GitHub.
 - `scripts/consultar_fontes.py`: buscador Python 3 (somente biblioteca padrão, sem token).
 - `plugin.json`: metadados para plataformas que suportem este formato.
 
