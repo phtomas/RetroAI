@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
-  "name": "retroai-spectrumai",
-  "version": "0.2.0",
-  "description": "Diagnostico de TK90X, TK95, ZX Spectrum e TK2000 com fontes publicas verificaveis no GitHub.",
+  "name": "retroai-oficina-dos-classicos",
+  "version": "0.3.0",
+  "description": "Oficina comunitaria de retrocomputacao: TK90X, TK95, ZX Spectrum e TK2000, com consulta a fontes publicas e evidencias.",
   "author": {
     "name": "phtomas",
     "url": "https://github.com/phtomas"
@@ -20,9 +20,9 @@
   "extensions": {
     "com.openai": {
       "interface": {
-        "displayName": "RetroAI — SpectrumAI",
-        "shortDescription": "Oficina viva TK90X e TK2000",
-        "longDescription": "Assistente tecnico com protocolo de consulta documentada a fontes publicas, analise de revisoes, diagnostico e seguranca de bancada.",
+        "displayName": "RetroAI — Oficina dos Clássicos",
+        "shortDescription": "Diagnóstico e documentação de micros clássicos",
+        "longDescription": "Apoio à investigação de circuitos, diagnóstico de defeitos, consulta a fontes originais e análise de revisões, sem substituir verificações elétricas.",
         "developerName": "phtomas",
         "websiteURL": "https://github.com/phtomas/RetroAI",
         "defaultPrompt": [
