@@ -1,8 +1,12 @@
-# RetroAI — SpectrumAI
+# RetroAI — Oficina dos Clássicos
 
 Assistente técnico comunitário para **TK90X, TK95, ZX Spectrum e TK2000**: diagnóstico, circuitos, Z80, ULA, ROM, RAM, vídeo, teclado, restauração e expansões.
 
 **Princípio:** Nada é “funcionou” sem prova. Isole e meça antes de adivinhar.
+
+## Identidade do projeto
+
+**RetroAI — Oficina dos Clássicos** é o nome atual. O antigo **SpectrumAI** ficou como denominação histórica das primeiras versões, que atendiam sobretudo TK90X/TK95. Mantivemos a URL e o diretório legado de arquivos para não quebrar os links antigos.
 
 ## Um projeto que não depende de um único fornecedor
 
@@ -10,7 +14,7 @@ Ao tentar publicar o RetroAI no diretório público do ChatGPT, a **skill passou
 
 Por isso, a base técnica do RetroAI está disponível aqui para consulta e adaptação a ambientes compatíveis. O objetivo é que o conhecimento circule e possa ser utilizado pela comunidade sem depender exclusivamente do catálogo de uma plataforma. **Isso não significa compatibilidade universal, instalação automática ou publicação aprovada no diretório OpenAI.**
 
-## Oficina Viva — fontes públicas consultáveis (v0.2.1)
+## Oficina dos Clássicos — fontes públicas consultáveis (v0.2.1)
 
 O núcleo técnico atualizado está em [SKILL.md](plugins/retroai-spectrumai/skills/diagnostico-tk/SKILL.md), com [catálogo JSON de fontes](plugins/retroai-spectrumai/fontes-publicas.json) (23 referências públicas indexadas, TK90X e TK2000) e [buscador Python sem chave de API](plugins/retroai-spectrumai/scripts/consultar_fontes.py).
 
@@ -29,6 +33,10 @@ A ampliação para TK2000 inclui a [reconstrução de Clemar Folly](https://gith
 
 As pastas privadas **RetroAI** e **Retropie** do Drive foram auditadas apenas para identificar temas, autoria e referências. **Nenhum arquivo privado do Drive foi publicado**. O catálogo aponta exclusivamente a arquivos já públicos nos sites e repositórios de seus autores, priorizando o upstream antes de forks. Não espelhamos ROMs, manuais, livros, fotos nem projetos de terceiros sem licença expressa. Dos protótipos do autor, referenciamos somente o que já estava público no Git.
 
+## IALAB — desenvolvimento do MCP e do RAG
+
+Estamos iniciando um **protótipo local e somente leitura**, independente do plugin público. [Plano de arquitetura e segurança](lab/README.md). Nenhum serviço público está hospedado nem foi instalado no IALAB; a primeira etapa exige testes locais e revisão de direitos antes de qualquer exposição externa.
+
 ## Obter o pacote
 
 [Baixar o pacote público RetroAI-SpectrumAI-v0.2.1.zip](releases/RetroAI-SpectrumAI-v0.2.1.zip) (recomendado; política links-only) · [ZIP antigo v0.1.0](releases/RetroAI-SpectrumAI-v0.1.0.zip) (legado, sem consulta indexada)
@@ -43,7 +51,7 @@ Este ZIP é uma **reconstrução pública portátil do núcleo técnico**, não 
 
 Leia o [guia curto para os leitores](docs/Guia-de-uso-RetroAI.md).
 
-## Um técnico TK/ZX no bolso?
+## Uma oficina dos clássicos no bolso?
 
 Sabemos que a experiência mais simples seria abrir o aplicativo no celular e chamar imediatamente o técnico de TK/ZX. Ainda não oferecemos isso de forma universal. Em uma etapa futura, podemos estudar um **robozinho técnico próprio**, acessível pela web e pelo celular, com conteúdo de TK, ZX e outros micros. Trata-se de uma intenção, **não de serviço já publicado**.
 
