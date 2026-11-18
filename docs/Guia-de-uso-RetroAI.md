@@ -1,6 +1,6 @@
-# RetroAI — SpectrumAI: um assistente técnico para toda a comunidade
+# RetroAI — Oficina dos Clássicos: um assistente técnico para toda a comunidade
 
-O **RetroAI — SpectrumAI** nasceu para ajudar a compreender e reparar **TK90X, TK95, ZX Spectrum e TK2000**: interpretar esquemas, investigar falhas de Z80, ULA, ROM e RAM, planejar medições e distinguir hipóteses de evidências.
+O **RetroAI — Oficina dos Clássicos** nasceu para ajudar a compreender e reparar **TK90X, TK95, ZX Spectrum e TK2000**: interpretar esquemas, investigar falhas de Z80, ULA, ROM e RAM, planejar medições e distinguir hipóteses de evidências.
 
 ## Por que o projeto ganhou um caminho independente?
 
@@ -19,7 +19,7 @@ A limitação nos levou a manter **a base técnica disponível no GitHub**, perm
 
 ## E o nosso robozinho técnico?
 
-Ainda não podemos garantir a comodidade de tirar o celular do bolso, abrir o bom e velho ChatGPT e chamar imediatamente o técnico de TK/ZX. Quem sabe, no futuro, possamos colocar no ar **nosso próprio robô técnico**, acessível pelo navegador e pelo celular, para conversar sobre TK, ZX e muito mais? **Essa é uma possibilidade futura, não um serviço já disponível.**
+Ainda não podemos garantir a comodidade de tirar o celular do bolso, abrir o bom e velho ChatGPT e chamar imediatamente o técnico de retrocomputação. Quem sabe, no futuro, possamos colocar no ar **nosso próprio robô técnico**, acessível pelo navegador e pelo celular, para conversar sobre TK, ZX e muito mais? **Essa é uma possibilidade futura, não um serviço já disponível.**
 
 **Segurança e método:** nada é “funcionou” sem prova. Isole e meça antes de adivinhar. Desenergize o equipamento para inspeções e reparos, respeite os riscos elétricos e confira a revisão correta do esquema.
 
