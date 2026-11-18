@@ -1,6 +1,6 @@
 # RetroAI — SpectrumAI: um assistente técnico para toda a comunidade
 
-O **RetroAI — SpectrumAI** nasceu para ajudar a compreender e reparar **TK90X, TK95 e ZX Spectrum**: interpretar esquemas, investigar falhas de Z80, ULA, ROM e RAM, planejar medições e distinguir hipóteses de evidências.
+O **RetroAI — SpectrumAI** nasceu para ajudar a compreender e reparar **TK90X, TK95, ZX Spectrum e TK2000**: interpretar esquemas, investigar falhas de Z80, ULA, ROM e RAM, planejar medições e distinguir hipóteses de evidências.
 
 ## Por que o projeto ganhou um caminho independente?
 
@@ -11,7 +11,7 @@ A limitação nos levou a manter **a base técnica disponível no GitHub**, perm
 ## Como usar hoje
 
 1. Acesse o [repositório do RetroAI](https://github.com/phtomas/RetroAI).
-2. Consulte a documentação e baixe o pacote ZIP disponível na pasta [`releases`](../releases). No momento, há uma versão pública do pacote; verifique sua versão e as instruções antes de instalar.
+2. Consulte a documentação e baixe o pacote ZIP disponível na pasta [`releases`](../releases). Use a versão **0.2.0** do ZIP, que inclui índice de 18 fontes técnicas públicas, protocolo de consulta e script de busca sem chave de API; a versão 0.1.0 é legada.
 3. Em um ambiente que suporte a importação desse tipo de plugin ou de skills, siga o procedimento do aplicativo. Se não houver importação direta, os arquivos técnicos podem servir como referência de instruções para um assistente compatível; isso requer adaptação e respeito às condições de uso dos arquivos.
 4. Ao solicitar ajuda, informe **modelo, revisão da placa, sintomas, modificações e medições já realizadas**; inclua fotos legíveis e o esquema correto, quando possível.
 
@@ -24,3 +24,15 @@ Ainda não podemos garantir a comodidade de tirar o celular do bolso, abrir o bo
 **Segurança e método:** nada é “funcionou” sem prova. Isole e meça antes de adivinhar. Desenergize o equipamento para inspeções e reparos, respeite os riscos elétricos e confira a revisão correta do esquema.
 
 **Endereço permanente do projeto:** https://github.com/phtomas/RetroAI
+
+## Consultar as fontes técnicas no GitHub
+
+Acesse o [catálogo de fontes públicas](../plugins/retroai-spectrumai/fontes-publicas.json) e a [skill atualizada](../plugins/retroai-spectrumai/skills/diagnostico-tk/SKILL.md). Em Python 3, com acesso à rede, execute a partir da raiz deste repositório:
+
+```sh
+python plugins/retroai-spectrumai/scripts/consultar_fontes.py --modelo TK2000 --termos "placa revisão" --abrir
+```
+
+Não precisa de token, API paga, MCP hospedado pelo autor nem IALAB ligado. O script consulta arquivos de repositórios **públicos** no GitHub. O uso integrado depende de o assistente ter navegação web, conector GitHub ou capacidade de executar o script. Não há garantia de instalação automática em todos os aplicativos.
+
+**Atenção:** distinguir TK2000 original, réplicas, revisões, expansões e projetos FPGA; conservar os créditos de Rubem/frubem, Clemar, hkzlab e demais autores upstream. Não copiar material de terceiros sem verificar a licença.
