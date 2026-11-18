@@ -36,3 +36,7 @@ python plugins/retroai-spectrumai/scripts/consultar_fontes.py --modelo TK2000 --
 Não precisa de token, API paga, MCP hospedado pelo autor nem IALAB ligado. O script consulta arquivos de repositórios **públicos** no GitHub. O uso integrado depende de o assistente ter navegação web, conector GitHub ou capacidade de executar o script. Não há garantia de instalação automática em todos os aplicativos.
 
 **Atenção:** distinguir TK2000 original, réplicas, revisões, expansões e projetos FPGA; conservar os créditos de Rubem/frubem, Clemar, hkzlab e demais autores upstream. Não copiar material de terceiros sem verificar a licença.
+
+## Política de fontes (acervo Drive)
+
+O acervo privado RetroAI/Retropie foi utilizado apenas para identificar referências. **Não é disponibilizado aos usuários da skill.** Esta aponta links públicos dos autores originais, mantendo créditos; não redistribui ROMs, manuais, livros, scans, esquemas, programas ou protótipos privados. Para TKGA/TKbus, apenas o que já consta da prévia pública do Git é referenciável; não confundir simulação com homologação física.
