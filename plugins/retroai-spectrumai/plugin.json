@@ -1,0 +1,38 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "retroai-spectrumai",
+  "version": "0.2.0",
+  "description": "Diagnostico de TK90X, TK95, ZX Spectrum e TK2000 com fontes publicas verificaveis no GitHub.",
+  "author": {
+    "name": "phtomas",
+    "url": "https://github.com/phtomas"
+  },
+  "homepage": "https://github.com/phtomas/RetroAI",
+  "repository": "https://github.com/phtomas/RetroAI",
+  "keywords": [
+    "tk90x",
+    "tk95",
+    "tk2000",
+    "zx-spectrum",
+    "retrocomputacao",
+    "hardware"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "RetroAI — SpectrumAI",
+        "shortDescription": "Oficina viva TK90X e TK2000",
+        "longDescription": "Assistente tecnico com protocolo de consulta documentada a fontes publicas, analise de revisoes, diagnostico e seguranca de bancada.",
+        "developerName": "phtomas",
+        "websiteURL": "https://github.com/phtomas/RetroAI",
+        "defaultPrompt": [
+          "Meu TK2000 está sem vídeo. Consulte primeiro os esquemas e identifique a revisão.",
+          "Meu TK90X mostra tela preta: que evidências faltam antes de trocar a ULA?",
+          "Procure no Git as diferenças entre as revisões da placa TK2000."
+        ],
+        "logo": "./assets/retroai-icon.svg",
+        "composerIcon": "./assets/retroai-icon.svg"
+      }
+    }
+  }
+}
