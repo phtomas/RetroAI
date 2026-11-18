@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+lab/*.sqlite3
+lab/knowledge/approved/
+.env
+*.log
