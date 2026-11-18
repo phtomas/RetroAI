@@ -11,7 +11,7 @@ A limitação nos levou a manter **a base técnica disponível no GitHub**, perm
 ## Como usar hoje
 
 1. Acesse o [repositório do RetroAI](https://github.com/phtomas/RetroAI).
-2. Consulte a documentação e baixe o pacote ZIP disponível na pasta [`releases`](../releases). Use a versão **0.2.1** do ZIP, que inclui índice de 23 fontes técnicas públicas, protocolo de consulta e script de busca sem chave de API; a versão 0.1.0 é legada.
+2. Consulte a documentação e baixe o pacote ZIP disponível na pasta [`releases`](../releases). Use a versão **0.3.0 (Oficina dos Clássicos)** do ZIP, que inclui índice de 23 fontes técnicas públicas, protocolo de consulta e script de busca sem chave de API; a versão 0.1.0 é legada.
 3. Em um ambiente que suporte a importação desse tipo de plugin ou de skills, siga o procedimento do aplicativo. Se não houver importação direta, os arquivos técnicos podem servir como referência de instruções para um assistente compatível; isso requer adaptação e respeito às condições de uso dos arquivos.
 4. Ao solicitar ajuda, informe **modelo, revisão da placa, sintomas, modificações e medições já realizadas**; inclua fotos legíveis e o esquema correto, quando possível.
 
