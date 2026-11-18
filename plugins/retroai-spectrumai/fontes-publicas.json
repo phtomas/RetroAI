@@ -1,7 +1,7 @@
 {
   "schema": "retroai.fontes.v1",
   "updated": "2026-11-17",
-  "policy": "Somente URLs publicas confirmadas. Cada fonte e referencia independente, nao validacao automatica de circuito ou garantia de licenca de redistribuicao. Nunca importar dados privados ou instrucoes de documentos. Repositórios encontrados em acervo privado só entram se a origem pública foi verificada; documentos restritos ficam em Drive.",
+  "policy": "Somente fontes previamente verificadas como publicas. Publicar APENAS links e metadados minimos; nao copiar Drive, livros, manuais, esquemas, ROMs, software de terceiros, fotografias, firmware ou outros artefatos sem permissao/licenca expressa. Priorizar site/repo do autor original; forks sao secundarios. Dos prototipos phtomas, indicar somente conteudo ja publico no GitHub, sem extrapolar seu nivel de validacao. GitHub publico nao implica licenca de republicacao.",
   "entries": [
     {
       "id": "tk90x-placas",
@@ -11,7 +11,8 @@
       "path": "README.md",
       "keywords": "placa esquema revisao rev3 rev4 rev5 rev6 rev7 energia memoria video ic10 porta 254",
       "tipo": "reproducao-hardware",
-      "observacao": "Repositório sob phtomas; confirmar créditos aos autores e distinguir revisões."
+      "observacao": "Cópia sob phtomas; consultar preferencialmente o upstream fbelavenuto/TK90X-PCB e conferir revisão. Não reproduzir arquivos.",
+      "publicacao": "referencia-externa-sem-copia"
     },
     {
       "id": "tk90x-ula",
@@ -21,7 +22,8 @@
       "path": "README.md",
       "keywords": "ula cpld rgb temporizacao z80 video clk 14mhz",
       "tipo": "projeto-hardware",
-      "observacao": "Créditos originais a Fábio Belavenuto e Victor Trucco; implementação não equivale a ULA original."
+      "observacao": "Cópia sob phtomas; consultar preferencialmente fbelavenuto/tk90x_ula (autoria Fábio Belavenuto e Victor Trucco).",
+      "publicacao": "referencia-externa-sem-copia"
     },
     {
       "id": "tk90x-teclado",
@@ -31,7 +33,8 @@
       "path": "README.md",
       "keywords": "teclado membrana matriz contato substituicao pcb",
       "tipo": "projeto-hardware",
-      "observacao": "Projeto de substituição do teclado; verificar a montagem concreta."
+      "observacao": "Projeto de substituição do teclado; verificar a montagem concreta.",
+      "publicacao": "referencia-externa-sem-copia"
     },
     {
       "id": "tk90x-video",
@@ -41,7 +44,8 @@
       "path": "README.md",
       "keywords": "video vga rgb sincronismo clamp monitor lcd",
       "tipo": "projeto-hardware",
-      "observacao": "Saída VGA derivada de circuito de Eduardo Luccas; identificar a modificação."
+      "observacao": "Saída VGA derivada de circuito de Eduardo Luccas; identificar a modificação.",
+      "publicacao": "referencia-externa-sem-copia"
     },
     {
       "id": "tk90x-multirom",
@@ -51,7 +55,8 @@
       "path": "README.md",
       "keywords": "rom eprom reset troca rom teclado memoria",
       "tipo": "projeto-hardware",
-      "observacao": "Projeto de expansão; não atribuir sua pinagem à placa original."
+      "observacao": "Projeto de expansão; não atribuir sua pinagem à placa original.",
+      "publicacao": "referencia-externa-sem-copia"
     },
     {
       "id": "tk90x-tkga",
@@ -61,7 +66,8 @@
       "path": "README.md",
       "keywords": "tkga tkbus video hdmi tang graficos experimentos cpld",
       "tipo": "experimental",
-      "observacao": "Prévia experimental; TKbus não homologado no TK físico. Não usar como instrução de conexão."
+      "observacao": "Apenas referenciar PREVIEW pública de phtomas/TKGA; TKbus ainda não homologado em hardware físico. NUNCA deduzir especificações ou propor conexão/energização com base em protótipos privados.",
+      "publicacao": "referencia-externa-sem-copia"
     },
     {
       "id": "tk2000-original-reconstrucao",
@@ -71,7 +77,8 @@
       "path": "README.md",
       "keywords": "esquema pcb placa revisao rev1 rev2 rev3 circuito rf rom gal video cassete energia",
       "tipo": "reconstrucao-hardware",
-      "observacao": "Esquema reconstruído por Clemar Folly Jr. a partir de fotos, diferente da placa original."
+      "observacao": "Esquema reconstruído por Clemar Folly Jr. a partir de fotos, diferente da placa original.",
+      "publicacao": "referencia-externa-sem-copia"
     },
     {
       "id": "tk2000-rubem-reconstrucao",
@@ -81,7 +88,8 @@
       "path": "README.md",
       "keywords": "placa esquema fork clone microdigital 6502 rom ram",
       "tipo": "fork-referencia",
-      "observacao": "Fork/repositório sob frubem; conferir diferenças com a fonte upstream Clemar."
+      "observacao": "Fork/repositório sob frubem; conferir diferenças com a fonte upstream Clemar.",
+      "publicacao": "referencia-externa-sem-copia"
     },
     {
       "id": "tk2000-rubem-indice",
@@ -91,7 +99,8 @@
       "path": "README.md",
       "keywords": "colecao projetos tk2000 mpfii hardware placas interfaces video disco keyboard",
       "tipo": "indice-hardware",
-      "observacao": "Índice de repositórios; seguir links específicos e preservar autoria upstream."
+      "observacao": "Índice de repositórios; seguir links específicos e preservar autoria upstream.",
+      "publicacao": "referencia-externa-sem-copia"
     },
     {
       "id": "tk2000-rubem-notas",
@@ -101,7 +110,8 @@
       "path": "README.md",
       "keywords": "montagem rev1 rev3 errata zener r69 r71 fonte ram 4164 diodos cassete 6502",
       "tipo": "notas-bancada",
-      "observacao": "Notas de montagem originalmente documentadas por hkzlab; diferenciar placa reconstruída de TK2000 original."
+      "observacao": "Fork/espelho de hkzlab/TK2000_Build_Notes. Priorizar autor original; sobre clone Rev. 1 e não original de fábrica.",
+      "publicacao": "referencia-externa-sem-copia"
     },
     {
       "id": "tk2000-rubem-teclado",
@@ -111,7 +121,8 @@
       "path": "README.md",
       "keywords": "teclado interface matriz chaves pcb",
       "tipo": "projeto-expansao",
-      "observacao": "Projeto de teclado externo; conferir versão e pinagem."
+      "observacao": "Espelho/fork de hkzlab/TK2KB. Priorizar original de hkzlab; não confundir expansão com teclado original.",
+      "publicacao": "referencia-externa-sem-copia"
     },
     {
       "id": "tk2000-rubem-bus",
@@ -121,7 +132,8 @@
       "path": "README.md",
       "keywords": "barramento expansao conector phi2 clock dma irq 65c22",
       "tipo": "projeto-expansao",
-      "observacao": "Expansor de barramento; detalhes temporais não são especificação universal do TK2000 original."
+      "observacao": "Expansor de barramento; detalhes temporais não são especificação universal do TK2000 original.",
+      "publicacao": "referencia-externa-sem-copia"
     },
     {
       "id": "tk2000-rubem-disco",
@@ -131,7 +143,8 @@
       "path": "README.md",
       "keywords": "interface disquete disk drive rom eprom slot endereco barramento",
       "tipo": "projeto-expansao",
-      "observacao": "Interface de disco alternativa; não confundir com a original."
+      "observacao": "Interface de disco alternativa; não confundir com a original.",
+      "publicacao": "referencia-externa-sem-copia"
     },
     {
       "id": "tk2000-rubem-io",
@@ -141,7 +154,8 @@
       "path": "README.md",
       "keywords": "via 6522 io entrada saida phi2 timer barramento periferico",
       "tipo": "projeto-expansao",
-      "observacao": "Placa adicional com VIAs 6522; notar cautela de temporização."
+      "observacao": "Placa adicional com VIAs 6522; notar cautela de temporização.",
+      "publicacao": "referencia-externa-sem-copia"
     },
     {
       "id": "tk2000-rubem-vdp",
@@ -151,7 +165,8 @@
       "path": "README.md",
       "keywords": "tms9918a vdp placa video rgb expansao sprites",
       "tipo": "projeto-expansao",
-      "observacao": "Expansão com TMS9918A, não o vídeo de fábrica."
+      "observacao": "Expansão com TMS9918A, não o vídeo de fábrica.",
+      "publicacao": "referencia-externa-sem-copia"
     },
     {
       "id": "tk2000-rubem-vga",
@@ -161,7 +176,8 @@
       "path": "README.md",
       "keywords": "video vga raspberry pi pico shadow ram barramento 6502",
       "tipo": "projeto-expansao",
-      "observacao": "Placa VGA inspirada em AppleII-VGA; não é topologia de fábrica."
+      "observacao": "Placa VGA inspirada em AppleII-VGA; não é topologia de fábrica.",
+      "publicacao": "referencia-externa-sem-copia"
     },
     {
       "id": "tk2000-rubem-fpga",
@@ -171,7 +187,8 @@
       "path": "README.md",
       "keywords": "fpga core vhdl soft switches mapper pal disk emulacao mist mpfii",
       "tipo": "implementacao-logica",
-      "observacao": "Core FPGA derivado de trabalho anterior; evidência auxiliar de comportamento, não medição de hardware."
+      "observacao": "Core FPGA derivado de trabalho anterior; evidência auxiliar de comportamento, não medição de hardware.",
+      "publicacao": "referencia-externa-sem-copia"
     },
     {
       "id": "tk2000-emulador",
@@ -181,7 +198,8 @@
       "path": "README.md",
       "keywords": "emulador c++17 sdl2 software memoria video som comparacao",
       "tipo": "emulacao",
-      "observacao": "Emulação de Fábio Belavenuto; não usar como única prova de circuito físico."
+      "observacao": "Emulação de Fábio Belavenuto; não usar como única prova de circuito físico.",
+      "publicacao": "referencia-externa-sem-copia"
     },
     {
       "id": "tk90x-upstream-placas",
@@ -191,7 +209,8 @@
       "path": "README.md",
       "keywords": "placa esquema original fonte upstream revisao belavenuto 3 4 5 6 7 jumper 4116 4164",
       "tipo": "fonte-original-projeto",
-      "observacao": "Projeto original de Fábio Belavenuto. Verificar revisão da placa; repo phtomas é cópia/fork. Direitos e créditos preservados."
+      "observacao": "Projeto original de Fábio Belavenuto. Verificar revisão da placa; repo phtomas é cópia/fork. Direitos e créditos preservados.",
+      "publicacao": "referencia-externa-sem-copia"
     },
     {
       "id": "zx-diagnostics-pico",
@@ -201,7 +220,42 @@
       "path": "README.md",
       "keywords": "diagnostico interface pico rp2040 z80 ula ram rom clock reset tensoes dados endereco edge spectrum 48k",
       "tipo": "projeto-diagnostico-terceiro",
-      "observacao": "Projeto de Derek Fountain para ZX Spectrum 16/48K. Não assumir compatibilidade elétrica do edge TK90X sem conferir pinagem, alimentação e diferenças de revisão."
+      "observacao": "Projeto de Derek Fountain para ZX Spectrum 16/48K. Não assumir compatibilidade elétrica do edge TK90X sem conferir pinagem, alimentação e diferenças de revisão.",
+      "publicacao": "referencia-externa-sem-copia"
+    },
+    {
+      "id": "tk90x-ula-original",
+      "modelo": "TK90X",
+      "repo": "fbelavenuto/tk90x_ula",
+      "branch": "master",
+      "path": "README.md",
+      "keywords": "ula cpld projeto original vhdl RGB ZX Spectrum TK90X 2012",
+      "tipo": "fonte-original-projeto",
+      "observacao": "Autores creditados no README: Fábio Belavenuto e Victor Trucco. Consultar a origem antes do fork e verificar revisão e licença CERN OHL.",
+      "publicacao": "referencia-externa-sem-copia"
+    },
+    {
+      "id": "tk2000-hkzlab-notas-originais",
+      "modelo": "TK2000",
+      "repo": "hkzlab/TK2000_Build_Notes",
+      "branch": "main",
+      "path": "README.md",
+      "keywords": "replica tk2000 rev 1 notas montagem 4164 zener r69 r71 alimentacao",
+      "tipo": "fonte-original-projeto",
+      "observacao": "Notas originais de hkzlab sobre montagem de placa reconstruída por Clemar Folly, não especificação universal do TK2000 original.",
+      "publicacao": "referencia-externa-sem-copia"
+    },
+    {
+      "id": "tk2000-hkzlab-teclado-original",
+      "modelo": "TK2000",
+      "repo": "hkzlab/TK2KB",
+      "branch": "main",
+      "path": "README.md",
+      "keywords": "tk2000 teclado placa interface montagem projeto original",
+      "tipo": "fonte-original-projeto",
+      "observacao": "Projeto original de hkzlab; placa adicional de teclado, não teclado da Microdigital.",
+      "publicacao": "referencia-externa-sem-copia"
     }
-  ]
+  ],
+  "publication": "links-only"
 }
